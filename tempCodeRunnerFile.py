@@ -1,21 +1,4 @@
-def calculate_xfactor(age) -> int:
-    """_summary_
-
-    Args:
-        age (_type_): _description_
-
-    Raises:
-        ValueError: _description_
-
-    Returns:
-        int: _description_
-    """
-    if age <= 0:
-        raise ValueError("Age cannot ve 0 or less.")
-    return 10 / age
-
-
-try:
-    calculate_xfactor(-1)
-except ValueError as error:
-    print(error)
+get_password_2 = make_secure(get_password)
+# R1 = get_password_2("admin")
+# print(f"func name: {get_password_2.__name__}")
+# print(R1)
